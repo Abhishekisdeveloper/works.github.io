@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+
+
+
+    <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        
+       
+        <title>Abhishek-port-folio</title>
+        
+       
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+        
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        
+        <nav class="navbar navbar-expand-lg bg-success text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Abhishek</a>
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Home</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
+
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Service</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        
+       
+        <header class="masthead bg-dark text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+              <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="./img/my3.jpg" alt="" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-6">
+                
+                
+                
+                <h1 class="masthead-heading text-uppercase mb-0">Abhishek</h1>
+               
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                
+                <p class="masthead-subheading font-weight-light mb-0">Web Developer - Web Designer - Freelancer</p>
+            </div>
+        </header>
+      </div>
+    </div>
+  </div> <br> <br>
+
+
+     
+     <div class="container" class="d-flex align-items-center">
+
+     	<h3 class="text-center">What i do?</h3> <br>
+    <div class="row">
+    	<div class="col-md-1">
+    	</div>
+    	<div class="col-md-4 pt-3 d-flex justify-content-center flex-column" data-aos="fade-right">
+    		<p style="font-size: 25px"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    		quis nostrud </p>
+    	</div>
+
+    	<div class="col-md-4  " data-aos="fade-left">
+    		<img src="4824.jpg" alt="" class="img-fluid" style="height: 40vh; width: 50vh">
+    	</div>
+    </div>
+</div>  <br> <br> <br>
+
+
+
+           <header class="masthead bg-dark text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+              <div class="container">
+          
+              <h3 class="text-center mb-5">About Me</h3> <br>
+    <div class="row">
+
+      
+      
+
+      <div class="col-md-4 ml-5" data-aos="flip-left">
+        <img src="./img/Brand.jpg" alt="" class="img-fluid rounded-0 pt-5" style="height: 40vh; width: 50vh">
+      </div>
+
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-4 pt-3" data-aos="flip-right">
+        <p style="font-size: 25px; border: 5px solid"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud </p>
+      </div>
+    </div>
+</div> 
+</div>
+</header> <br> <br>  <br> <br>
+            
+
+
+
+
+
+
+   
+
+     <div class="container-fluid bg-primary">
+
+     	<h3 class="text-center text-white pt-3">What i do?</h3> <br>
+
+     	<div class="row">
+     		
+     		<div class="col-md-3" data-aos="zoom-in">
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./img/64665.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Abhishek Tripathi</h1> 
+      <p>About me </p> 
+      <p>i love to play with codes</p>
+    </div>
+  </div>
+</div>
+</div>
+                
+
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-3" data-aos="zoom-in">
+
+              <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./img/what.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Abhishek Tripathi</h1> 
+      <p>About me </p> 
+      <p>i love to play with codes</p>
+    </div>
+  </div>
+</div>
+</div>   
+         
+
+          <div class="col-md-1">
+                </div>
+         <div class="col-md-3" data-aos="zoom-in">
+       <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="./img/3577393.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Abhishek Tripathi</h1> 
+      <p>About me </p> 
+      <p>i love to play with codes</p>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>   <br> <br> <br>
+</div>  <br> <br> <br> <br> 
+
+
+
+
+<div class="container">
+
+	<h3 class="text-center">My Theroy</h3>
+    <div class="row">
+    	<div class="col-md-1">
+    	</div>
+    	<div class="col-md-4 pt-3  d-flex justify-content-center flex-column"  data-aos="fade-right">
+    		<p style="font-size: 25px"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    		quis nostrud </p>
+    	</div>
+
+    	<div class="col-md-4 " data-aos="fade-left">
+    		<img src="./img/4380.jpg" alt="" class="img-fluid"  style="height: 400px; width: 100% " >
+    	</div>
+    </div>
+</div>  <br> <br> <br>
+
+
+
+
+              <div class="container">
+
+              	<h3 class="text-center">My Hobbies</h3> <br>
+    <div class="row">
+    	
+
+    	<div class="col-md-4" >
+    		<img src="./img/3793099.jpg" alt="" class="img-fluid">
+    	</div>
+
+    	<div class="col-md-4 pt-lg-5 bg-dark text-success">
+
+    		<p  style="font-size: 20px"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    		quis nostrud.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    		quis nostrud  </p>
+    		
+    	</div>
+
+    	<div class="col-md-4 ">
+    		<img src="./img/3828875.jpg" alt="" class="img-fluid" >
+    	</div>
+         </div>
+             </div>  <br> <br>  <br> <br>
+
+
+
+
+
+    	
+
+                <div class="container">
+
+              	<h2 style="font-size: 50px" class="text-center ">What other <strong class="font-weight-bold text-uppercase" style="font-size: 60px"> say </strong></h2> <br> <br>
+
+
+                  
+
+              	<div class="alert alert-danger text-center" role="alert">
+                              <p style="font-size: 20px"> "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                              proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p> <br> <br>
+
+                               Abhishek Tripathi
+                         </div> 
+                     </div>  <br> <br>
+
+                                 
+
+
+
+                                 <div class="container">
+                                 	<div class="card">
+                                 	<div class="row">
+                                 		<div class="col-md-5 pt-2 ml-1">
+                                 			<h2 class="ml-lg-5">Connect with me !</h2>
+                                 			<img src="3410348.jpg" alt="" class="img-fluid"> <br>
+                                 		</div>
+
+                                      <div class="col-md-2">
+                                      </div>
+
+                                 		<div class="col-md-4 pt-4 my-lg-auto">
+                                 			<input class="form-control" type="text" name="" placeholder="Your Name"><br>
+                                 			<input class="form-control" type="text" name="" placeholder="Your Email"><br>
+                                 			<input class="form-control" type="multiline" name="" placeholder="Message"><br>
+
+                                 			<button style="width: 50%; border-radius: 25px" class="btn btn-outline-danger">Send</button>
+
+                                 	</div>
+                                 </div> <br>
+                                 </div> <br>
+                             </div>
+
+
+                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               <br> <br> <br>
+
+
+
+
+                           
+          <div class="card-footer bg-dark text-white">
+            <h1 class="text-center" >Connect with us:</h1> <br>
+
+            <div class="row">
+              <div class="col-md-4">
+              </div>
+              <div class="col-md-1">
+
+          <a href="">  <i style="font-size: 50px;color: #00e6ac" class="fa fa-facebook-official" aria-hidden="true"></i></a>
+          </div>
+
+           <div class="col-md-1">
+
+           <a href=""> <i style="font-size: 50px;color: #ff471a" class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+
+            <div class="col-md-1">
+
+           <a href=""> <i style="font-size: 50px;color: #1a8cff" class="fa fa-twitter" aria-hidden="true"></i> </a>
+          </div>
+
+
+           <div class="col-md-1">
+
+         <a href="">   <i style="font-size: 50px;color:  #1a1aff" class="fa fa-linkedin" aria-hidden="true"></i> </a>
+          </div>
+        </div> <br> <br>
+
+        <div class="row">
+
+          <div class="col-md-3 ">
+            <h3>Find me here</h3> <br>
+            <h5> ABC Street , near xyz society</h5> <br>
+
+            <h5>Phone No: 8871856322</h5> <br>
+
+             <h5>Email : xabhi111@gmail.com</h5> <br>
+           </div>
+
+        
+        <div class="col-lg-6">
+        </div>
+
+           <div class="col-md-3">
+            <h3>Find me here</h3> <br>
+            <h5> ABC Street , near xyz society</h5> <br>
+
+            <h5>Phone No: 8871856322</h5> <br>
+
+             <h5>Email : xabhi111@gmail.com</h5> <br>
+           </div>
+         </div>
+       </div>
+    	
+
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+         <script>
+  AOS.init({
+
+
+    duration: 1000,
+    
+
+  });
+</script>
+
+
+               
+</body>
+</html>
+
